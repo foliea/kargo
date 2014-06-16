@@ -17,6 +17,8 @@ RUN apt-get install -y curl
 
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
 
+# Add node.js official repository
+
 RUN add-apt-repository -y ppa:chris-lea/node.js
 
 # Make sure the package repository is up to date
