@@ -8,7 +8,12 @@ MAINTAINER Adrien Folie, folie.adrien@gmail.com
 
 # Install basis
 
-RUN apt-get install -y software-properties-common python-software-properties python make g++ curl
+RUN apt-get install -y software-properties-common
+RUN apt-get install -y python-software-properties
+RUN apt-get install -y python
+RUN apt-get install -y make
+RUN apt-get install -y g++
+RUN apt-get install -y curl
 
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
 
