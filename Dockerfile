@@ -2,7 +2,7 @@
 #
 # VERSION 1.0
 
-FROM ubuntu
+FROM ubuntu:14.04
 
 MAINTAINER Adrien Folie, folie.adrien@gmail.com
 
