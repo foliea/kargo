@@ -6,9 +6,9 @@ FROM ubuntu:12.04
 
 MAINTAINER Adrien Folie, folie.adrien@gmail.com
 
-RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
-
 # Make sure the package repository is up to date
+
+RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
 
 RUN apt-get update
 
@@ -37,9 +37,9 @@ RUN apt-get install -y nodejs
 
 RUN npm install tty.js
 
-# Start tty daemon
+# Start tty.js
 
-ENTRYPOINT ["/node_modules/.bin/tty.js", "--port", "7777"]
+CMD ["/node_modules/.bin/tty.js", "--port", "7777"]
 
 # Port binding
 
