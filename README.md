@@ -7,7 +7,7 @@ a docker container.
 
 1. Get kargo image from docker hub:
 
-  `docker pull foliea/kargo`
+  `$ docker pull foliea/kargo`
 
 2. Run a container from this image:
 
@@ -15,8 +15,8 @@ a docker container.
 
 3. On your web browser:
 
-http://127.0.0.1:7777
+  `http://127.0.0.1:7777`
 
 or if you use boot2docker:
 
-http://192.168.59.103:7777/
+  `http://192.168.59.103:7777`
