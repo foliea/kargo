@@ -13,7 +13,7 @@ a docker container.
 
   `$ docker run -d -p 7777:7777 foliea/kargo`
 
-3. On your web browser:
+3. In your web browser:
 
   http://127.0.0.1:7777
 
