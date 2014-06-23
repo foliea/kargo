@@ -1,10 +1,16 @@
-# kargo/ubuntu
+# foliea/kargo
 #
 # VERSION 1.0
 
-FROM ubuntu
+FROM ubuntu:12.04
 
 MAINTAINER Adrien Folie, folie.adrien@gmail.com
+
+RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
+
+# Make sure the package repository is up to date
+
+RUN apt-get update
 
 # Install basis
 
@@ -15,13 +21,11 @@ RUN apt-get install -y make
 RUN apt-get install -y g++
 RUN apt-get install -y curl
 
-RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
-
 # Add node.js official repository
 
 RUN add-apt-repository -y ppa:chris-lea/node.js
 
-# Make sure the package repository is up to date
+# Update the package repository
 
 RUN apt-get update
 
@@ -35,8 +39,8 @@ RUN npm install tty.js
 
 # Start tty daemon
 
-ENTRYPOINT ["/node_modules/.bin/tty.js", "-p", "4224"]
+ENTRYPOINT ["/node_modules/.bin/tty.js", "--port", "7777"]
 
 # Port binding
 
-EXPOSE 4224
+EXPOSE 7777
