@@ -17,7 +17,7 @@ a docker container.
 
   http://127.0.0.1:7777
 
-  If you use boot2docker:
+  If you are using boot2docker:
 
   http://192.168.59.103:7777
 
