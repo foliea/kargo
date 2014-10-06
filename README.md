@@ -27,7 +27,7 @@ a docker container.
 
 First, run a kargo's container:
 
-    $ docker run -d -p 7777:7777 foliea/kargo
+    docker run -d -p 7777:7777 foliea/kargo
     
 
 Then, in your web browser:
