@@ -18,7 +18,7 @@ a docker container.
 
 1. Install [docker](http://www.docker.com).
 
-2. Download [automated build](https://registry.hub.docker.com/u/foliea/kargo) from public 
+2. Download [automated build](https://registry.hub.docker.com/u/folieadrien/kargo) from public 
 [docker hub registry](https://registry.hub.docker.com/):
 
     `docker pull foliea/kargo`
@@ -27,7 +27,7 @@ a docker container.
 
 First, run a kargo's container:
 
-    docker run -d -p 7777:7777 foliea/kargo
+    docker run -d -p 7777:7777 folieadrien/kargo
     
 
 Then, in your web browser:
