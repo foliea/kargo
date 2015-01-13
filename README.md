@@ -21,7 +21,7 @@ a docker container.
 2. Download [automated build](https://registry.hub.docker.com/u/folieadrien/kargo) from public 
 [docker hub registry](https://registry.hub.docker.com/):
 
-    `docker pull foliea/kargo`
+    `docker pull folieadrien/kargo`
 
 ## Usage
 
