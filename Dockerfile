@@ -6,7 +6,8 @@ MAINTAINER Adrien Folie, folie.adrien@gmail.com
 RUN echo "deb http://us.archive.ubuntu.com/ubuntu/ precise universe" >> /etc/apt/sources.list
 
 # Install basis
-RUN apt-get update -q && apt-get install -qy \
+RUN apt-get update -qq && \
+    apt-get install -qy \
     software-properties-common \
     python-software-properties \
     python \
