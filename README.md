@@ -8,7 +8,7 @@ a docker container.
 
 ## Base Docker Image
 
-* [ubuntu 12.04](https://registry.hub.docker.com/_/ubuntu/)
+* [Ubuntu 12.04](https://registry.hub.docker.com/_/ubuntu/)
 
 ## Sources
 
