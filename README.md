@@ -12,22 +12,22 @@ a docker container.
 
 ## Sources
 
-* [GitHub](https://github.com/folieadrien/kargo)
+* [GitHub](https://github.com/foliea/kargo)
 
 ## Installation
 
 1. Install [docker](http://www.docker.com).
 
-2. Download [automated build](https://registry.hub.docker.com/u/folieadrien/kargo) from public 
+2. Download [automated build](https://registry.hub.docker.com/u/foliea/kargo) from public 
 [docker hub registry](https://registry.hub.docker.com/):
 
-    `docker pull folieadrien/kargo`
+    `docker pull foliea/kargo`
 
 ## Usage
 
 First, run a kargo's container:
 
-    docker run -d -p 7777:7777 folieadrien/kargo
+    docker run -d -p 7777:7777 foliea/kargo
     
 
 Then, in your web browser:
@@ -37,5 +37,3 @@ Then, in your web browser:
 With `boot2docker`:
 
   * http://192.168.59.103:7777
-  
-
