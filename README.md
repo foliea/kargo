@@ -1,4 +1,5 @@
 # kargo
+[![foliea/karo](http://dockeri.co/image/foliea/kargo)](https://registry.hub.docker.com/u/foliea/kargo/)
 
 This repository contains `Dockerfile` of  `kargo` for docker's automated build
 published to the public docker hub registry.
